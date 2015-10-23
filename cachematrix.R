@@ -15,9 +15,9 @@ cacheSolve <- function(x, ...) {
 }
 
 
-#m <- matrix (rnorm(100), 10, 10)
-#m
-#inv_m <- solve(m)
-#inv_m
-#jedinicna <- (m %*% inv_m)
-#jedinicna
+m <- matrix (rnorm(100), 10, 10)
+m
+inv_m <- solve(m)
+inv_m
+jedinicna <- (m %*% inv_m)
+jedinicna
